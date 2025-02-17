@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Handstand holds</h2>
+    <div class="formContainer">
+      <form action="">
+        <div class="inputRow">
+      <input type="date" name="dateAdded" class="date" placeholder="date">
+      <input type="text" name="distanceSteps" id="distance" placeholder="how far">
+      <input type="text" name="holdTime" id="seconds" placeholder="how long">
+    </div>
+      <div class="buttons"><input type="file" id="uploader" /><input type="submit" name="" id="submit"></div>
+    </div>
+  </form>
+    
+     
+<!-- the buttons are outside of the form so submit is not wroking
+need to mvoe back into form but on separate line.
+then need to get photo go upload and display -->
+    <div class="recorded">
+    <ul></ul>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <img src="" alt="uploaded image" />
+  </div>
+  
+    
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
