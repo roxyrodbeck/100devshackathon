@@ -136,15 +136,15 @@ button:focus-visible {
   align-items: center;
   border: 1px solid black;
   min-height: 300px;
-  width: 85vw;
+  width: 80%;
   border-radius: 1rem;
   background-color: rgb(245, 245, 220, 0.5)
 }
 
 .gallery > img {
   position: relative;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   object-fit: cover;
   border-radius: 1rem;
   border: 1px solid black;
